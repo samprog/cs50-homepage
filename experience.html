@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html lang="en" class="h-100">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title>Experience</title>
+    </head>
+    <body class="d-flex flex-column h-100">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container">
+                    <a class="navbar-brand" href="#" id="getQuote">Get quote</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="about.html">About Me</a></li>
+                            <li class="nav-item"><a class="nav-link active" href="experience.html">Experience</a></li>
+                            <li class="nav-item"><a class="nav-link" href="skills.html">Skills</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="container">
+                <!-- My projects -->
+                <div class="projects">
+                    <h3 class="title">Projects</h3>
+                    <ul class="list">
+                        <li class="list-item"><span class="list-item-text">ERP System for car maintenance service "Galych Auto" LLC.</span></li>
+                        <li class="list-item"><span class="list-item-text">ERP System for car maintenance service "Galych Motors" LLC.</span></li>
+                        <li class="list-item"><span class="list-item-text">CRM System for trade company "Evropa-contact" LLC.</span></li>
+                    </ul>
+                </div>
+                <!-- My work experience -->
+                <div class="work">
+                    <h3 class="title">Work Experience</h3>
+                    <!-- Company 1 -->
+                    <div>
+                        <h4 class="work-position">Software developer<span class="organization">Freelance</span></h4>
+                        <p class="period">September 2016 - up to now<span class="v-line">|</span>Ukraine</p>
+                        <ul class="list">
+                            <li class="list-item"><span class="list-item-text">Produce clean, efficient code based on specifications.</span></li>
+                            <li class="list-item"><span class="list-item-text">Integrate software components and third-party programs.</span></li>
+                            <li class="list-item"><span class="list-item-text">Verify and deploy programs and systems.</span></li>
+                            <li class="list-item"><span class="list-item-text">Gather and evaluate user feedback.</span></li>
+                            <li class="list-item"><span class="list-item-text">Recommend and execute improvements.</span></li>
+                            <li class="list-item"><span class="list-item-text">Troubleshoot, debug and upgrade existing software.</span></li>
+                        </ul>
+                    </div>
+                    <!-- Company 2 -->
+                    <div>
+                        <h4 class="work-position">System analyst<span class="organization">Leveks LLC</span></h4>
+                        <p class="period">January 2015 - October 2016<span class="v-line">|</span>Ukraine</p>
+                        <ul class="list">
+                            <li class="list-item"><span class="list-item-text">Training users on how to appropriately utilize their computer systems.</span></li>
+                            <li class="list-item"><span class="list-item-text">Consulting with managers to determine what role the systems play in the business.</span></li>
+                            <li class="list-item"><span class="list-item-text">Testing the systems on a regular basis to ensure quality and function.</span></li>
+                            <li class="list-item"><span class="list-item-text">Brainstorming new ways to add more functionality to systems.</span></li>
+                            <li class="list-item"><span class="list-item-text">Choosing and configuring the hardware and software of a system.</span></li>
+                        </ul>
+                    </div>
+                    <!-- Company 3 -->
+                    <div>
+                        <h4 class="work-position">System administrator<span class="organization">Gal-leobud LLC</span></h4>
+                        <p class="period">April 2009 - January 2015<span class="v-line">|</span>Ukraine</p>
+                        <ul class="work-list">
+                            <li class="list-item"><span class="list-item-text">Technical support.</span></li>
+                            <li class="list-item"><span class="list-item-text">Installing and configuring software, hardware and networks.</span></li>
+                            <li class="list-item"><span class="list-item-text">Monitoring system performance and troubleshooting issues.</span></li>
+                            <li class="list-item"><span class="list-item-text">Ensuring security and efficiency of IT infrastructure.</span></li>
+                            <li class="list-item"><span class="list-item-text">Upgrade systems with new releases and models.</span></li>
+                            <li class="list-item"><span class="list-item-text">Set up accounts and workstations.</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- Footer-->
+        <footer class="footer mt-auto py-3 bg-dark" id="footer">
+            <div class="container"><p class="m-0 text-center text-white">Roman Rudysh &copy; 2022</p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Modal -->
+        <div class="modal fade" id="Quote" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body" id="QuoteText"></div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
